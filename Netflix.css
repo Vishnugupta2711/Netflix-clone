@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.main {
+    background-image: url(images/bg.jpg);
+    height: 644px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 10px; 
+    left: 100px;
+    width: 80vw;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navb > :nth-child(1) {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    height: 30px;
+    width: 120px;
+    opacity: 0.4;
+}
+
+.navb > :nth-child(2) {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    height: 30px;
+    width: 120px;
+    opacity: 0.4;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+    font-family: "Martel Sans", sans-serif;
+    gap: 24px;
+}
+
+@media  and (max-width:800px ){
+    .firstp{
+        flex-wrap:wrap;
+    }
+}
+.hero > :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero > :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero > :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page1b {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.page1b > :nth-child(1) {
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5px;
+}
+
+.page1b > :nth-child(2) {
+    border: 2px solid red;
+    border-radius: 6px;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.separation {
+    background-color: rgba(128, 128, 128, 0.266);
+    height: 8px;
+}
+
+.firstp {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+section.firstp > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sectext{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+   
+}
+.sectext :first-child {
+    font-size: 48px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+}
+.sectext :nth-child(2){
+    font-size: 24px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+}
+.firstpimg img {
+    width: 555px;
+    position: relative;
+    left: 500px;
+    z-index: 10;
+}
+
+.firstpimg video {
+    position: absolute;
+    width: 555px;
+}
+.secondp{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secondp1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+}
+.sectext1{
+    gap: 5px;
+}
+.sectext1 :first-child {
+    font-size: 48px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+}
+.sectext1 :nth-child(2){
+    font-size: 48px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 00;
+}
+.sectext1 :nth-child(3){
+    font-size: 16px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+}
+.sectext1 :nth-child(4){
+    font-size: 16px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+}
+.trirdp {
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sectext2{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 250px;
+    top: 230px;
+}
+.thirdp img {
+    width: 555px;
+    position: relative;
+    left: 900px;
+    z-index: 10;
+}
+
+.thirdp video {
+    position: relative;
+    width: 360px;
+    height: 310px;
+    left: 1000px;
+    bottom: 422px;
+    z-index: 1;
+
+}
+.sectext2 :first-child {
+    font-size: 48px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+}
+.sectext2 :nth-child(2){
+    font-size: 16px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+}
+.sectext2 :nth-child(3){
+    font-size: 16px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+}
+.fourp{
+    color: white;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.fourp h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 50px;
+
+}
+.fourp h4{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin:34px  auto;
+    cursor: pointer;
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+.fourp .box1{
+    align-items: center;
+    margin: 10px; 
+}
+.fourp svg{
+    filter: invert(1);
+}
+.fourp .page1b{
+    position: relative;
+    left: 500px;
+    margin: 34px auto;
+}
+footer{
+    color:white;
+    max-width: 90vw;
+    padding: 75px 0;
+}
+footer > div{
+    padding-left: 170px;
+    margin-top: 10px;
+}
+.grid{
+    display: grid;
+    row-gap: 5px;
+    column-gap:5px ;
+    margin: 23px 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    padding: 20px;
+    text-decoration: underline;
+}
